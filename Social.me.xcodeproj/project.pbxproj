@@ -13,7 +13,7 @@
 		D50500071E803C4D00C8CF91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50500051E803C4D00C8CF91 /* LaunchScreen.storyboard */; };
 		D505000F1E803DA500C8CF91 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D505000E1E803DA500C8CF91 /* GoogleService-Info.plist */; };
 		D505FFFD1E803C4D00C8CF91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D505FFFC1E803C4D00C8CF91 /* AppDelegate.swift */; };
-		D505FFFF1E803C4D00C8CF91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D505FFFE1E803C4D00C8CF91 /* ViewController.swift */; };
+		D505FFFF1E803C4D00C8CF91 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D505FFFE1E803C4D00C8CF91 /* SignInVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		D505000E1E803DA500C8CF91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D505FFF91E803C4C00C8CF91 /* Social.me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Social.me.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D505FFFC1E803C4D00C8CF91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D505FFFE1E803C4D00C8CF91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D505FFFE1E803C4D00C8CF91 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 		D50500101E80469200C8CF91 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D505FFFE1E803C4D00C8CF91 /* ViewController.swift */,
+				D505FFFE1E803C4D00C8CF91 /* SignInVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D505FFFF1E803C4D00C8CF91 /* ViewController.swift in Sources */,
+				D505FFFF1E803C4D00C8CF91 /* SignInVC.swift in Sources */,
 				D505FFFD1E803C4D00C8CF91 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
