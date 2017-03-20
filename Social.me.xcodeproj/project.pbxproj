@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C100B89DA2DC12390B20FA09 /* Pods_Social_me.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519869288651815FC11E658C /* Pods_Social_me.framework */; };
 		D50500021E803C4D00C8CF91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50500001E803C4D00C8CF91 /* Main.storyboard */; };
 		D50500041E803C4D00C8CF91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50500031E803C4D00C8CF91 /* Assets.xcassets */; };
 		D50500071E803C4D00C8CF91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50500051E803C4D00C8CF91 /* LaunchScreen.storyboard */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		519869288651815FC11E658C /* Pods_Social_me.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Social_me.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB0BD520742733747911CE4 /* Pods-Social.me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social.me.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Social.me/Pods-Social.me.debug.xcconfig"; sourceTree = "<group>"; };
+		BD692C7B5A02B9B45D09833E /* Pods-Social.me.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social.me.release.xcconfig"; path = "Pods/Target Support Files/Pods-Social.me/Pods-Social.me.release.xcconfig"; sourceTree = "<group>"; };
 		D50500011E803C4D00C8CF91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D50500031E803C4D00C8CF91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D50500061E803C4D00C8CF91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C100B89DA2DC12390B20FA09 /* Pods_Social_me.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11DAC228484EFE12074F1DB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				519869288651815FC11E658C /* Pods_Social_me.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		186C5CCA28EDE78E206ED4F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CB0BD520742733747911CE4 /* Pods-Social.me.debug.xcconfig */,
+				BD692C7B5A02B9B45D09833E /* Pods-Social.me.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D505FFF01E803C4C00C8CF91 = {
 			isa = PBXGroup;
 			children = (
 				D505FFFB1E803C4D00C8CF91 /* Social.me */,
 				D505FFFA1E803C4C00C8CF91 /* Products */,
+				186C5CCA28EDE78E206ED4F0 /* Pods */,
+				11DAC228484EFE12074F1DB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D505000B1E803C4D00C8CF91 /* Build configuration list for PBXNativeTarget "Social.me" */;
 			buildPhases = (
+				77BE6B422448C3CDF592EBFF /* [CP] Check Pods Manifest.lock */,
 				D505FFF51E803C4C00C8CF91 /* Sources */,
 				D505FFF61E803C4C00C8CF91 /* Frameworks */,
 				D505FFF71E803C4C00C8CF91 /* Resources */,
+				A58CBEF01559B92A1179A845 /* [CP] Embed Pods Frameworks */,
+				CDE30EC41FAE486F2E2D1727 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,6 +162,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77BE6B422448C3CDF592EBFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A58CBEF01559B92A1179A845 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Social.me/Pods-Social.me-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDE30EC41FAE486F2E2D1727 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Social.me/Pods-Social.me-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D505FFF51E803C4C00C8CF91 /* Sources */ = {
@@ -263,6 +338,7 @@
 		};
 		D505000C1E803C4D00C8CF91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CB0BD520742733747911CE4 /* Pods-Social.me.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3983Y6QL49;
@@ -276,6 +352,7 @@
 		};
 		D505000D1E803C4D00C8CF91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD692C7B5A02B9B45D09833E /* Pods-Social.me.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3983Y6QL49;
