@@ -91,6 +91,9 @@
                                     <constraint firstAttribute="height" constant="100" id="Zng-IU-ZGp"/>
                                 </constraints>
                                 <state key="normal" image="f"/>
+                                <connections>
+                                    <action selector="facebookLoginBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rzp-sU-H5t"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pTS-Bd-l7t">
                                 <rect key="frame" x="170" y="345" width="35" height="30"/>
@@ -124,6 +127,9 @@
                                         <state key="normal" title="Login">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="loginBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hzq-2O-z7P"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -152,10 +158,33 @@
                             <constraint firstItem="4m1-Ux-wry" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wU8-p2-etp"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="loginBtn" destination="kOk-wL-Iyw" id="uCc-ND-6gc"/>
+                        <outlet property="userEmail" destination="HSr-4i-Fcm" id="GGS-0U-Yq6"/>
+                        <outlet property="userPassword" destination="zWo-hg-QdE" id="dSK-gA-IN4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Wft-nz-Ftw">
+            <objects>
+                <viewController id="5B9-nc-cJG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OhS-Gi-S2P"/>
+                        <viewControllerLayoutGuide type="bottom" id="DyZ-DT-C1G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oPC-c5-nwo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JK0-kz-vMu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="676" y="37"/>
         </scene>
     </scenes>
     <resources>
