@@ -26,6 +26,15 @@ class SignInVC: UIViewController {
 
     //Login or an account will be created for you
     @IBAction func loginBtnPressed(_ sender: UIButton) {
+        
+        let email = userEmail.text!
+        let password = userPassword.text!
+        
+        authenticateUserWith(email, password)
+    }
+    
+    func authenticateUserWith(_ email: String, _ password: String) {
+        //
     }
     
     //Create an account with facebook
