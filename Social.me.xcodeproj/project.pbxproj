@@ -18,6 +18,7 @@
 		D5079CDB1EEA3EBB00EF0C53 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5079CDA1EEA3EBB00EF0C53 /* Constants.swift */; };
 		D5079CDD1EEA432D00EF0C53 /* RoundedFacebookBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5079CDC1EEA432D00EF0C53 /* RoundedFacebookBtn.swift */; };
 		D5079CDF1EEA46D900EF0C53 /* CustomizedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5079CDE1EEA46D900EF0C53 /* CustomizedTextField.swift */; };
+		D5079CE11EEA497700EF0C53 /* CustomizedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5079CE01EEA497700EF0C53 /* CustomizedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		D5079CDA1EEA3EBB00EF0C53 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D5079CDC1EEA432D00EF0C53 /* RoundedFacebookBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedFacebookBtn.swift; sourceTree = "<group>"; };
 		D5079CDE1EEA46D900EF0C53 /* CustomizedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizedTextField.swift; sourceTree = "<group>"; };
+		D5079CE01EEA497700EF0C53 /* CustomizedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				D5079CD81EEA3C8200EF0C53 /* CustomizedView.swift */,
 				D5079CDC1EEA432D00EF0C53 /* RoundedFacebookBtn.swift */,
 				D5079CDE1EEA46D900EF0C53 /* CustomizedTextField.swift */,
+				D5079CE01EEA497700EF0C53 /* CustomizedButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5079CD91EEA3C8200EF0C53 /* CustomizedView.swift in Sources */,
+				D5079CE11EEA497700EF0C53 /* CustomizedButton.swift in Sources */,
 				D505FFFF1E803C4D00C8CF91 /* SignInVC.swift in Sources */,
 				D5079CDD1EEA432D00EF0C53 /* RoundedFacebookBtn.swift in Sources */,
 				D505FFFD1E803C4D00C8CF91 /* AppDelegate.swift in Sources */,
