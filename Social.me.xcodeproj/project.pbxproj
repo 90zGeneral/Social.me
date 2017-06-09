@@ -16,6 +16,7 @@
 		D505FFFF1E803C4D00C8CF91 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D505FFFE1E803C4D00C8CF91 /* SignInVC.swift */; };
 		D5079CD91EEA3C8200EF0C53 /* CustomizedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5079CD81EEA3C8200EF0C53 /* CustomizedView.swift */; };
 		D5079CDB1EEA3EBB00EF0C53 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5079CDA1EEA3EBB00EF0C53 /* Constants.swift */; };
+		D5079CDD1EEA432D00EF0C53 /* RoundedFacebookBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5079CDC1EEA432D00EF0C53 /* RoundedFacebookBtn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D505FFFE1E803C4D00C8CF91 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		D5079CD81EEA3C8200EF0C53 /* CustomizedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizedView.swift; sourceTree = "<group>"; };
 		D5079CDA1EEA3EBB00EF0C53 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D5079CDC1EEA432D00EF0C53 /* RoundedFacebookBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedFacebookBtn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				D50500001E803C4D00C8CF91 /* Main.storyboard */,
 				D50500051E803C4D00C8CF91 /* LaunchScreen.storyboard */,
 				D5079CD81EEA3C8200EF0C53 /* CustomizedView.swift */,
+				D5079CDC1EEA432D00EF0C53 /* RoundedFacebookBtn.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				D5079CD91EEA3C8200EF0C53 /* CustomizedView.swift in Sources */,
 				D505FFFF1E803C4D00C8CF91 /* SignInVC.swift in Sources */,
+				D5079CDD1EEA432D00EF0C53 /* RoundedFacebookBtn.swift in Sources */,
 				D505FFFD1E803C4D00C8CF91 /* AppDelegate.swift in Sources */,
 				D5079CDB1EEA3EBB00EF0C53 /* Constants.swift in Sources */,
 			);
